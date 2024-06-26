@@ -1,0 +1,166 @@
+body {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    color: grey;
+  }
+  
+  #header-main {
+    display: flex;
+  }
+  
+  header nav {
+    margin-left: auto;
+  }
+  
+  img#heroimg {
+    width: 100%;
+    height: auto;
+  }
+
+  img#list-bg {
+    width: 120%;
+    height: auto;
+  }
+
+  #logotext {
+    font-family: Yellowtail;
+    font-size: 30px;
+    color: black;
+  }
+  
+  #tagline {
+    font-family: Oswald;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+  #navimage {
+    display: flex;
+  }
+  
+  #logoimg {
+    margin-right: 10px;
+  }
+  
+  #rssicon {
+    margin-left: 10px;
+  }
+  
+  .horizontal-rule {
+    /* ChatGPT helped a ton with this */
+    height: 6px; /* Set the height of the horizontal rule */
+    background-image: url('/images/hr-img.png'); /* Specify the image URL */
+    background-repeat: repeat-x; /* Repeat the image horizontally */
+    background-size: auto 100%; /* Ensure the image covers the full width of the container */
+    margin: 20px 0; /* Adjust margin as needed */
+  }
+  
+  #article-title {
+    font-family: Oswald;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  #article-info {
+    display: block;
+    font-family: Oswald;
+    color: grey;
+    margin-top: 50px;
+    font-weight: lighter;
+  }
+  
+  #tagprint {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  #printicon {
+    margin-left: auto;
+  }
+  
+  #heroimg {
+    margin-bottom: 20px;
+  }
+  
+  #post-content p {
+    margin-bottom: 20px;
+    text-indent: 20px;
+  }
+  
+  /* Used this: https://www.w3schools.com/howto/howto_css_image_text.asp */
+  
+  #ingredients {
+    display: flex;
+    position: relative;
+    flex: 1;
+  }
+  
+  /* #ingredients ul {
+    position: absolute;
+    top: 8px;
+    left: 16px;  
+  } */
+  
+  /* #ingredients li {
+    position: absolute;
+    top: 8px;
+    right: 16px; 
+  } */
+  
+  #ingredients ul {
+    position: absolute;
+    font-family: 'Patrick Hand SC';
+    font-size: 27px;
+    padding: 40px;
+  }
+  
+  #left-list {
+    margin-left: 500px;
+  }
+  
+  /* End citation */
+  
+  #about {
+    display: flex;
+  }
+  
+  #authorpic {
+    margin-right: 10px;
+  }
+  
+  #authorname {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #sharebutton {
+    /* ChatGPT helped here. */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: RGB(204, 156, 107);
+    color: #fff; /* Text color */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-left: 60px;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    /* ChatGPT helped with this */
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #footerlogo {
+    margin-bottom: 20px;
+  }
